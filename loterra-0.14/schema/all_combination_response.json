@@ -1,0 +1,16 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "AllCombinationResponse",
+  "type": "object",
+  "required": [
+    "combination"
+  ],
+  "properties": {
+    "combination": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    }
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "RoundResponse",
+  "type": "object",
+  "required": [
+    "next_round"
+  ],
+  "properties": {
+    "next_round": {
+      "type": "integer",
+      "format": "uint64",
+      "minimum": 0.0
+    }
+  }
+}
